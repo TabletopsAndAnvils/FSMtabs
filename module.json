@@ -12,7 +12,7 @@
     "patreon": "TabletopsAndAnvils"
   }
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
 
@@ -44,5 +44,5 @@
   "url": "https://github.com/TabletopsAndAnvils/FSMtabs",
 
   "manifest": "https://raw.githubusercontent.com/TabletopsAndAnvils/FSMtabs/main/module.json",
-  "download": "https://github.com/TabletopsAndAnvils/FSMtabs/archive/0.0.1.zip"
+  "download": "https://github.com/TabletopsAndAnvils/FSMtabs/archive/0.0.2.zip"
 }
