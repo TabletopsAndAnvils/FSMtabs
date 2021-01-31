@@ -1,7 +1,7 @@
 {
-  "name": "streamMod",
-  "title": "Foundry Stream Module",
-  "description": "Integrates Foundry with Twitch.",
+  "name": "FSMtabs",
+  "title": "Foundry Stream Module Tabs",
+  "description": "Provides tabs for FSM.",
   "author": "MrUnderhill",
   "authors": [
   {
