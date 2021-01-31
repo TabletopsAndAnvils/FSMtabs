@@ -1,0 +1,27 @@
+{
+  "name": "FSMtabs",
+  "title": "Foundry Stream Module Tabs",
+  "description": "Adds a seperate tab to the chatlog in Foundry Stream Module, just for Twitch chat.",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "author": "MrUnderhill, Cody Swendrowski <cody@swendrowski.us>",
+  "esmodules": [
+    "./fsmtabs.js"
+  ],
+  "scripts": [
+  ],
+  "styles": [
+    "/styles/fsmtabs.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "https://github.com/tabletopsandanvils/FSMtabs",
+  "manifest": "https://github.com/tabletopsandanvils/FSMtabs/releases/download/latest/module.json",
+  "download": "https://github.com/cswendrowski/FoundryVTT-tabbed-chatlog/releases/download/0.0.1.zip"
+}
