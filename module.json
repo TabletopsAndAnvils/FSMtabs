@@ -1,27 +1,48 @@
 {
-  "name": "FSMtabs",
-  "title": "Foundry Stream Module Tabs",
-  "description": "Adds a separate tab to the chatlog in Foundry Stream Module, just for Twitch chat.",
+  "name": "streamMod",
+  "title": "Foundry Stream Module",
+  "description": "Integrates Foundry with Twitch.",
+  "author": "MrUnderhill",
+  "authors": [
+  {
+    "name": "MrUnderhill",
+    "url": "https://www.patreon.com/tabletopsandanvils",
+    "email": "mr_underhill@icloud.com",
+    "discord": "MrUnderhill#4707",
+    "patreon": "TabletopsAndAnvils"
+  }
+  ],
   "version": "0.0.1",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
-  "author": "MrUnderhill",
-  "esmodules": [
-    "./fsmtabs.js"
-  ],
-  "scripts": [
-  ],
+
   "styles": [
-    "/styles/fsmtabs.css"
+    "/styles/fsmtabs.css" 
+  ],
+
+  "esmodules": [
+    "/fsmtabs.js"
   ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "/languages/en.json"
     }
   ],
-  "url": "https://github.com/tabletopsandanvils/FSMtabs",
-  "manifest": "https://github.com/TabletopsAndAnvils/FSMtabs/blob/main/module.json",
+  "media":[
+    {
+      "type":"cover",
+      "link":"https://github.com/TabletopsAndAnvils/Foundry-Stream-Module/blob/main/img/fsm-cover.png"
+    },
+    {
+      "type":"screenshot",
+      "link":"https://github.com/TabletopsAndAnvils/Foundry-Stream-Module/blob/main/img/Screen%20Shot%202021-01-19%20at%2022.03.50.png"
+    }
+  ],
+  "bugs": "https://github.com/TabletopsAndAnvils/FSMtabs/issues",
+  "url": "https://github.com/TabletopsAndAnvils/FSMtabs",
+
+  "manifest": "https://raw.githubusercontent.com/TabletopsAndAnvils/FSMtabs/main/module.json",
   "download": "https://github.com/TabletopsAndAnvils/FSMtabs/archive/0.0.1.zip"
 }
