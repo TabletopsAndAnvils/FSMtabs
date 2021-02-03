@@ -1,7 +1,7 @@
 {
-  "name": "FSMtabs",
-  "title": "Foundry Stream Module Tabs",
-  "description": "Provides tabs for FSM.",
+  "name": "streamAudio",
+  "title": "Underhill's Streaming Audio",
+  "description": "Stream audio to Foundry",
   "author": "MrUnderhill",
   "authors": [
   {
@@ -12,7 +12,7 @@
     "patreon": "TabletopsAndAnvils"
   }
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
 
@@ -21,7 +21,7 @@
   ],
 
   "esmodules": [
-    "/fsmtabs.js"
+    "/streamAudio.js"
   ],
   "languages": [
     {
@@ -44,5 +44,5 @@
   "url": "https://github.com/TabletopsAndAnvils/FSMtabs",
 
   "manifest": "https://raw.githubusercontent.com/TabletopsAndAnvils/FSMtabs/main/module.json",
-  "download": "https://github.com/TabletopsAndAnvils/FSMtabs/archive/0.0.2.zip"
+  "download": "https://github.com/TabletopsAndAnvils/FSMtabs/archive/0.0.3.zip"
 }
