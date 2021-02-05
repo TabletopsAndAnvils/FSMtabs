@@ -1,19 +1,26 @@
-//import { registerSettings } from "../streamMod/scripts/settings";
+// demo music url http://s3.yesstreaming.net:7062/stream 
 
-var stream = new Howl({
-    src: ['http://s3.yesstreaming.net:7062/stream'],
-    ext: ['mp3'],
-    autoplay: true,
-    html5: true
-});
+function streamPlay() {
 
-
-function openStream() {
-    sound.play(stream);
 }
 
-function openStream() {
-    AudioHelper.play({src: "http://s3.yesstreaming.net:7062/stream", volume: 0.15, autoplay: true, loop: false}, true);
-}
-
-openStream();
+Hooks.on("ready", function () {  
+  streamDialog();
+  });
+  
+  function streamDialog() {
+  $('.dialog').css({width: '350px'});
+  let streamPlayer = new Dialog({
+      title: `Underhill's Stream Audio`,
+      content: `<audio controls="controls">
+      <source src="http://radio.tabletopsandanvils.com:8000/radio.mp3" type="audio/mpeg" />
+    </audio>`,
+      buttons: {},
+      close: (html) => {
+          console.log(html);
+      }
+    });
+    streamPlayer.options.width = 316;
+    streamPlayer.position.width = 316;
+    streamPlayer.render(true)
+  }
